@@ -1,6 +1,6 @@
 package prototype;
 
-public class PrototypePattern {
+public class Client {
 
 	public static void main(String[] args) {
 		// Initialize cake
