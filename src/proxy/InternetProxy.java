@@ -8,6 +8,10 @@ public class InternetProxy implements Internet {
 	private Internet internet = new RealInternet();
 	private static List<String> restrictedSites;
 
+	public InternetProxy() {
+
+	}
+
 	public InternetProxy(Internet internet) {
 		this.internet = internet;
 	}
