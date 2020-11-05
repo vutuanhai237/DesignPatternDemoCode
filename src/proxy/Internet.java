@@ -1,5 +1,5 @@
 package proxy;
 
 public interface Internet {
-	public void connectTo(String host);
+	public void connect(String host);
 }
