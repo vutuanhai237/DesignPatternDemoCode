@@ -7,7 +7,6 @@ class Client {
 
         salesManager.addEmployee(new NormalEmployee("sale employee 1", 1000));
         salesManager.addEmployee(new NormalEmployee("sale employee 2", 1000));
-        // cityHCM.removeComponent(district1);
 
         Manager HRManager = new Manager("HR Manager", 2500);
         HRManager.addEmployee(new NormalEmployee("hr employee 1", 2000));
